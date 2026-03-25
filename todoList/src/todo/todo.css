@@ -1,0 +1,80 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: #111;
+}
+.Container{
+  height: auto;
+  min-height: 200px;
+  background-color: #333;
+  width: 420px;
+  margin: 130px auto;
+  border: 1px solid gray;
+  border-radius: 12px;
+}
+
+h2{
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 30px;
+  color: whitesmoke;
+}
+input{
+  height: 40px;
+  width: 250px;
+  margin-left: 25px;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  font-weight: bolder;
+  padding-left: 6px;
+}
+input::placeholder{
+  color: #111;
+}
+input:focus{
+  outline: none;
+}
+button{
+  height: 40px;
+  width: 100px;
+  font-size: 16px;
+  font-weight: bolder;
+  border: none;
+  border-radius: 6px;
+  color: #111;
+  cursor: pointer;
+}
+.add{
+  margin-left: 20px;
+  background-color: green;
+}
+ul{
+  margin-bottom: 40px;
+  margin-top: 40px;
+  margin-left: 20px;
+}
+li{
+  list-style-type: none;
+  color: aliceblue;
+}
+.todoInputsListButton{
+  display: flex;
+}
+.liSection{
+  width: 280px;
+  
+  margin-bottom: 12px;
+  margin-top: 4px;
+}
+li{
+  margin-top: 6px;
+  font-size: 21px;
+}
+.del{
+  background-color: red;
+}
